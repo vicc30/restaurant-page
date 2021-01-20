@@ -2,12 +2,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-main: #F6750F;
+  --color-alt: #531CB3;
+  --color-secondary: #009900;
+  --color-white: #FFF9FF;
+  --color-black: #092F36;
+}
+
 body {
   margin: 0;
-  background: url('./assets/images/bg.jpeg');
+  height: 100%;
+  /*linear gradient for darken image */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./assets/images/bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+
 }
 
 /* Style the side navigation */
@@ -18,31 +28,47 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background: var(--color-main);
   overflow-x: hidden;
+  font-weight: bold;
+  opacity: 0.85;
 }
 
 /* Side navigation links */
 .sidenav a {
-  color: white;
+  color: var(--color-white);
   padding: 16px;
   text-decoration: none;
   display: block;
+  margin-left: 10px;
+  font-size: large;
 }
 
 /* Change color on hover */
 .sidenav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: var(--color-alt);
 }
 
 .sidenav .selection {
-    background-color: #ddd;
-    color: black;
-  }
+  color: var(--color-white);
+  border-left: solid var(--color-white) 2px;
+}
 
 /* Style the content */
-.pages {
+.title {
   margin-left: 200px;
   padding-left: 20px;
+  color: var(--color-white);
+  height: 100vh;
+  text-align: center;
+  padding-top: 25vh;
+}
+
+.title h1 {
+  font-size: 12vh;
+}
+
+.title p {
+  font-size: 10vh;
+  transform: translate(20vh, -10vh)
 }
