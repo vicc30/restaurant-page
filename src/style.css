@@ -60,15 +60,17 @@ body {
   padding-left: 20px;
   color: var(--color-white);
   height: 100vh;
-  text-align: center;
   padding-top: 25vh;
 }
 
 .title h1 {
   font-size: 12vh;
+  text-align: center;
 }
 
 .title p {
   font-size: 10vh;
-  transform: translate(20vh, -10vh)
+  transform: translate(0, -10vh);
+  text-align: right;
+  margin-right: 30vh;
 }
