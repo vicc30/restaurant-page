@@ -6,9 +6,30 @@ const menuBody = () => {
 
     body.innerHTML =
         `       
-            <div class="title">
+            <div class="menu-title">
                 <h1>Menu</h1>
-                <p>Welcome!</p>
+                <p>We have delicious dishes!</p>
+                <p>Please take a look!</p>
+            </div>
+            <div class="menu-dishes">
+                <div class="menu-item dish-1">
+                    <p>Suadero Taco</p>
+                </div>
+                <div class="menu-item dish-2">
+                    <p>Fish Taco</p>
+                </div>
+                <div class="menu-item dish-3">
+                    <p>Pozole</p>
+                </div>
+                <div class="menu-item dish-4">
+                    <p>Carnitas taco</p>
+                </div>
+                <div class="menu-item dish-5">
+                    <p>Consome soup</p>
+                </div>
+                <div class="menu-item dish-6">
+                    <p>Guacamole</p>
+                </div>
             </div>
         `
     return body;
