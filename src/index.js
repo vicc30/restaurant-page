@@ -10,7 +10,6 @@ import about from './components/about';
 //Initialization
 const index = () => {
     var body = document.getElementById('content');
-
     // navbar, section and footer render function
     body.innerHTML =
         `
@@ -25,9 +24,9 @@ const index = () => {
             
             <section id="sections">
             </section>
-
-            <footer>
-            </footer>
+            <div class="fixed">
+                Made by Victor C.
+            </div>
         `
     return body;
 }

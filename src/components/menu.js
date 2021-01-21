@@ -22,7 +22,7 @@ const menuBody = () => {
                     <p>Pozole</p>
                 </div>
                 <div class="menu-item dish-4">
-                    <p>Carnitas taco</p>
+                    <p>Carnitas Taco</p>
                 </div>
                 <div class="menu-item dish-5">
                     <p>Consome soup</p>
