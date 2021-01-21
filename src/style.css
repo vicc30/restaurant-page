@@ -266,3 +266,101 @@ div.fixed {
 .about-content h2 {
   color: var(--color-secondary);
 }
+
+/*Contact main */
+.contact-title {
+  margin-left: 200px;
+  padding-left: 20px;
+  color: var(--color-white);
+  height: 100vh;
+  padding-top: 15vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contact-title h1 {
+  font-size: 12vh;
+  text-align: center;
+}
+
+.contact-title p {
+  font-size: 9vh;
+  text-align: center;
+}
+
+/* Contact section */
+/*Contact form */
+/* Align container with navbar */
+.row {
+  margin-left: 200px;
+}
+
+.row img {
+  width:100%;
+  border: 3px solid var(--color-secondary);
+  border-radius: 10px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: var(--color-main);
+  color: var(--color-white);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: var(--color-alt);
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: var(--color-white);
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Align text elements with title */
+
+.contact-content {
+  margin-left: 200px;
+  text-align: center;
+}
+
+.contact-content h2 {
+  font-size: 9vh;
+  color: var(--color-secondary);
+}
+
+.contact-content p {
+  font-size: 3vh;
+}
