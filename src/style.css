@@ -22,7 +22,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background: var(--color-main);
+  background: linear-gradient(rgba(255, 80, 0, 0.8), rgba(255, 80, 0, 0.8));
   overflow-x: hidden;
   font-weight: bold;
 }
@@ -47,10 +47,21 @@ body {
   border-left: solid var(--color-white) 2px;
 }
 
-/* Style content title home */
-.title {
+/*Styles for align with side navbar */
+.about-title h1,
+.about-title p,
+.title h1,
+.title p,
+.menu-title h1,
+.menu-title p,
+.contact-title h1,
+.contact-title p {
   margin-left: 200px;
   padding-left: 20px;
+}
+
+/* Style content title home */
+.title {
   color: var(--color-white);
   height: 100vh;
   padding-top: 25vh;
@@ -76,8 +87,6 @@ body {
 /* Style content menu */
 
 .menu-title {
-  margin-left: 200px;
-  padding-left: 20px;
   color: var(--color-white);
   height: 100vh;
   padding-top: 18vh;
@@ -126,7 +135,7 @@ body {
 
 /* Dishes menu */
 .dish-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("./assets/images/dish-1.jpg");
   background-repeat: no-repeat;
   transition: transform 0.5s;
@@ -135,13 +144,13 @@ body {
 }
 
 .dish-1:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("./assets/images/dish-1.jpg");
   background-size: 110%;
 }
 
 .dish-2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("./assets/images/dish-2.jpg");
   background-repeat: no-repeat;
   transition: transform 0.5s;
@@ -157,7 +166,7 @@ body {
 }
 
 .dish-3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("./assets/images/dish-3.jpg");
   background-repeat: no-repeat;
   transition: transform 0.5s;
@@ -166,11 +175,13 @@ body {
 }
 
 .dish-3:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./assets/images/dish-3.jpg");
   background-size: 110%;
 }
 
 .dish-4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("./assets/images/dish-4.jpg");
   background-repeat: no-repeat;
   transition: transform 0.5s;
@@ -179,11 +190,13 @@ body {
 }
 
 .dish-4:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./assets/images/dish-4.jpg");
   background-size: 110%;
 }
 
 .dish-5 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("./assets/images/dish-5.jpg");
   background-repeat: no-repeat;
   transition: transform 0.5s;
@@ -199,7 +212,7 @@ body {
 }
 
 .dish-6 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("./assets/images/dish-6.jpg");
   background-repeat: no-repeat;
   transition: transform 0.5s;
@@ -208,6 +221,8 @@ body {
 }
 
 .dish-6:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./assets/images/dish-6.jpg");
   background-size: 110%;
 }
 
@@ -226,8 +241,6 @@ div.fixed {
 
 /* About content */
 .about-title {
-  margin-left: 200px;
-  padding-left: 20px;
   color: var(--color-white);
   height: 100vh;
   padding-top: 18vh;
@@ -269,8 +282,6 @@ div.fixed {
 
 /*Contact main */
 .contact-title {
-  margin-left: 200px;
-  padding-left: 20px;
   color: var(--color-white);
   height: 100vh;
   padding-top: 15vh;
@@ -299,12 +310,14 @@ div.fixed {
 }
 
 .row img {
-  width:100%;
+  width: 100%;
   border: 3px solid var(--color-secondary);
   border-radius: 10px;
 }
 
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid var(--color-secondary);
@@ -314,7 +327,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: var(--color-main);
   color: var(--color-white);
   padding: 12px 20px;
@@ -323,7 +336,7 @@ input[type=submit] {
   border-radius: 10px;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: var(--color-alt);
 }
 
