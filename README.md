@@ -4,6 +4,10 @@ This is my solution for PROJECT: RESTAURANT PAGE by [Odin Project](https://www.t
 
 In this excercise I made a simple restaurante page dynamically rendered using DOM manipulation.
 
+## Preview
+
+- Look the preview [here](https://vicc30.github.io/restaurant-page/)
+
 ## Technologies
 
 - Node JS
@@ -38,10 +42,10 @@ In this excercise I made a simple restaurante page dynamically rendered using DO
 ### Dependecies
 
 - devDependencies:
-    -"css-loader": "^5.0.1"
-    -"style-loader": "^2.0.0"
-    -"webpack": "^5.15.0"
-    -"webpack-cli": "^4.4.0"
+    - "css-loader": "^5.0.1"
+    - "style-loader": "^2.0.0"
+    - "webpack": "^5.15.0"
+    - "webpack-cli": "^4.4.0"
 
 ## Distribution
 
