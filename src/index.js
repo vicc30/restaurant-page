@@ -15,17 +15,17 @@ const index = () => {
         `
             <nav>
                 <div class="sidenav">
-                    <a href='#' id="home-click">Home</a>
-                    <a href='#' id="menu-click">Menu</a>
-                    <a href="#" id="about-click">About</a>
-                    <a href="#" id="contact-click">Contact</a>
+                    <a href='#' id="home-click"><i class="fas fa-home"></i> Home</a>
+                    <a href='#' id="menu-click"><i class="fas fa-book-open"></i> Menu</a>
+                    <a href="#" id="about-click"><i class="fas fa-info-circle"></i> About</a>
+                    <a href="#" id="contact-click"><i class="fas fa-address-book"></i> Contact</a>
                 </div>
             </nav>
             
             <section id="sections">
             </section>
             <div class="fixed">
-                Made by Victor C.
+                Made by Victor C. <i class="fas fa-hand-spock"></i>
             </div>
         `
     return body;

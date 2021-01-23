@@ -12,10 +12,11 @@ const contactContent = () => {
   <div class="contact-title">
       <h1>Contact</h1>
       <p>Want a delicious dish?</p>
+      <p><a href="#contact-info"><i class="fas fa-chevron-circle-down"></i></a></p>
   </div>
   <div class="container">
   <div class="contact-content">
-    <h2>Contact Information!</h2>
+    <h2 id="contact-info">Contact Information!</h2>
     <p>Have a question or a suggestion? Leave your message and we will contact as soon as posible!</p>
   </div>
   <div class="row">

@@ -11,9 +11,10 @@ const content = () => {
             <div class="about-title">
                 <h1>About Us</h1>
                 <p>Here is our story =)</p>
+                <p><a href="#history"><i class="fas fa-chevron-circle-down"></i></a></p>
             </div>
             <div class="about-content">
-                <h2>Our History</h2>
+                <h2 id="history">Our History</h2>
                 <img src="${imageHistory}" alt="Our team"></img>
                 <p>We began our journey in 2020 and ... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi accusamus a distinctio laboriosam incidunt ea expedita earum voluptatum explicabo! Consectetur quidem sed impedit sint vitae eaque quasi unde aut numquam!</p>
             </div>

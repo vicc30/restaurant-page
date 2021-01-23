@@ -28,12 +28,20 @@ In this excercise I made a simple restaurante page dynamically rendered using DO
 - The index.html file need to be in dist folder.
 - It need to have a `<div id="content"></div>` in body where all the elements will render.
 - In footer it needs to have the `<script src="main.js"></script>` tag for importing the JS code.
-- Template is already inside dist folder. Here is template:
+- Template is already inside dist folder. Here is an example:
 `<body>`
 `<div id="content">`
 `</div>`
 `<script src="main.js"></script>`
 `</body>`
+
+### Dependecies
+
+- devDependencies:
+    -"css-loader": "^5.0.1"
+    -"style-loader": "^2.0.0"
+    -"webpack": "^5.15.0"
+    -"webpack-cli": "^4.4.0"
 
 ## Distribution
 
@@ -81,6 +89,7 @@ In this excercise I made a simple restaurante page dynamically rendered using DO
 - [Deploying a subfolder to GitHub Pages](https://gist.github.com/cobyism/4730490)
 - [Mark Down Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 - [The Odin Project: JavaScript - ES6 Modules](https://www.theodinproject.com/courses/javascript/lessons/es6-modules)
+- [Icons Font Awesome](https://fontawesome.com/)
 
 ### Support
 

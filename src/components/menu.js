@@ -10,9 +10,10 @@ const menuBody = () => {
                 <h1>Menu</h1>
                 <p>We have delicious dishes!</p>
                 <p>Please take a look!</p>
+                <p><a href="#dishes"><i class="fas fa-chevron-circle-down"></i></a></p>
             </div>
             <div class="menu-dishes">
-                <div class="menu-item dish-1">
+                <div class="menu-item dish-1" id="dishes">
                     <p>Suadero Taco</p>
                 </div>
                 <div class="menu-item dish-2">

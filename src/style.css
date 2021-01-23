@@ -89,7 +89,7 @@ body {
 .menu-title {
   color: var(--color-white);
   height: 100vh;
-  padding-top: 18vh;
+  padding-top: 11vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./assets/images/bg-menu.jpeg");
   background-repeat: no-repeat;
@@ -105,6 +105,14 @@ body {
 .menu-title p {
   font-size: 7vh;
   text-align: center;
+}
+
+.menu-title a {
+  color: var(--color-white);
+}
+
+.menu-title a:hover {
+  color: var(--color-alt);
 }
 
 .menu-dishes {
@@ -261,6 +269,14 @@ div.fixed {
   text-align: center;
 }
 
+.about-title a {
+  color: var(--color-white);
+}
+
+.about-title a:hover {
+  color: var(--color-alt);
+}
+
 .about-content {
   margin-left: 200px;
   margin-right: 50px;
@@ -286,7 +302,7 @@ div.fixed {
   height: 100vh;
   padding-top: 15vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./assets/images/bg.jpeg");
+    url("./assets/images/bg-contact.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -300,6 +316,14 @@ div.fixed {
 .contact-title p {
   font-size: 9vh;
   text-align: center;
+}
+
+.contact-title a {
+  color: var(--color-white);
+}
+
+.contact-title a:hover {
+  color: var(--color-alt);
 }
 
 /* Contact section */
